@@ -22,10 +22,9 @@ keymap.set("n", "<leader>tt", ":tabnew<CR>")
 keymap.set("n", "<S-Right>", ":tabn<CR>")
 keymap.set("n", "<S-Left>", ":tabp<CR>")
 
--- start of word
-keymap.set({ "n", "v" }, "q", "b")
-
 -- end of line
 keymap.set({ "n", "v" }, "<S-e>", "$")
-keymap.set({ "n", "v" }, "<S-q>", "_")
+keymap.set({ "n", "v" }, "<S-b>", "_")
 
+-- save with ctlr+s
+keymap.set("n", "<C-s>", ":w<CR>")

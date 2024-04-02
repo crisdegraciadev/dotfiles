@@ -6,7 +6,7 @@ opt.number = true
 
 -- tabs & indentation
 opt.tabstop = 2
-opt.shiftwidth=2
+opt.shiftwidth = 2
 opt.autoindent = true
 opt.expandtab = true
 
@@ -23,5 +23,10 @@ opt.splitright = true
 opt.splitbelow = true
 
 -- include - as part of word
-opt.iskeyword:append("-")
+-- opt.iskeyword:append("-")
 
+-- turn off swapfile
+opt.swapfile = false
+
+-- always display diagnostic signs to avoid right-shift
+opt.signcolumn = "yes"
