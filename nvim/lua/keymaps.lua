@@ -19,8 +19,12 @@ keymap.set("n", "<leader>sh", "<C-w>s")
 keymap.set("n", "<leader>tt", ":tabnew<CR>")
 
 -- next/prev tab
-keymap.set("n", "<S-Right>", ":tabn<CR>")
-keymap.set("n", "<S-Left>", ":tabp<CR>")
+keymap.set("n", "<C-Right>", ":tabn<CR>")
+keymap.set("n", "<C-Left>", ":tabp<CR>")
+
+-- next/prev split
+keymap.set("n", "<S-Right>", "<C-w>l")
+keymap.set("n", "<S-Left>", "<C-w>h")
 
 -- end of line
 keymap.set({ "n", "v" }, "<S-e>", "$")
