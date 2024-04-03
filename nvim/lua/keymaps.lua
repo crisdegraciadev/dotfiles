@@ -26,9 +26,13 @@ keymap.set("n", "<C-Left>", ":tabp<CR>")
 keymap.set("n", "<S-Right>", "<C-w>l")
 keymap.set("n", "<S-Left>", "<C-w>h")
 
--- end of line
-keymap.set({ "n", "v" }, "<S-e>", "$")
-keymap.set({ "n", "v" }, "<S-b>", "_")
+-- end/start of word
+keymap.set({ "n", "v" }, "e", "e")
+keymap.set({ "n", "v" }, "w", "b")
 
--- save with ctlr+s
+-- end/start of line
+keymap.set({ "n", "v" }, "<S-e>", "$")
+keymap.set({ "n", "v" }, "<S-w>", "_")
+
+-- save with ctrl+s
 keymap.set("n", "<C-s>", ":w<CR>")
