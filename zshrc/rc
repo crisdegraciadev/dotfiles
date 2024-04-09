@@ -1,6 +1,1 @@
 for f in ~/Dotfiles/zshrc/config/*; do source $f; done
-
-
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
