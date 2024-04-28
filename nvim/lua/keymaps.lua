@@ -22,9 +22,11 @@ keymap.set("n", "<leader>tt", ":tabnew<CR>")
 keymap.set("n", "<C-Right>", ":tabn<CR>")
 keymap.set("n", "<C-Left>", ":tabp<CR>")
 
--- next/prev split
+-- move between split
 keymap.set("n", "<S-Right>", "<C-w>l")
 keymap.set("n", "<S-Left>", "<C-w>h")
+keymap.set("n", "<S-Up>", "<C-w>k")
+keymap.set("n", "<S-Down>", "<C-w>j")
 
 -- end/start of word
 keymap.set({ "n", "v" }, "e", "e")
