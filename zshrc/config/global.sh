@@ -10,4 +10,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # angular CLI autocompletion.
 source <(ng completion script)
 
+# term
 export TERM=xterm-256color
+
+export PATH="$HOME/Dotfiles/tmux/plugins/tmuxifier/bin:$PATH"
