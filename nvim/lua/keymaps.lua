@@ -37,4 +37,4 @@ keymap.set({ "n", "v" }, "<S-e>", "$")
 keymap.set({ "n", "v" }, "<S-w>", "_")
 
 -- save with ctrl+s
-keymap.set("n", "<C-s>", ":w<CR>")
+keymap.set("n", "<C-s>", ":w! %<CR>")
